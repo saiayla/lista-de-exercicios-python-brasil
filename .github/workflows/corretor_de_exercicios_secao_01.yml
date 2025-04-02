@@ -122,6 +122,11 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_01_estrutura_sequencial\ex_08_horas_trabalhadas_mes.py
+      - name: Correção do Exercício 09 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial\ex_09_fahrenheit_para_celsius.py
+          
         
         
         
