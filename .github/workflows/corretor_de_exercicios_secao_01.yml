@@ -102,4 +102,8 @@ jobs:
         if: always()
         run: |
           python -m doctest -f secao_01_estrutura_sequencial\ex_03_imprima_soma_de_dois_numeros.py
+      - name: Correção do Exercício 04 da seção de Estrutura Sequencial
+        if: always()
+        run: |
+          python -m doctest -f secao_01_estrutura_sequencial\ex_04_notas_bimestrais.py
         
