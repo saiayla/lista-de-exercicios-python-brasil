@@ -13,14 +13,16 @@ Faça um Programa que peça dois números inteiros e imprima a soma.
 """
 
 
-def imprima_a_soma_de_dois_numeros():
+def imprima_a_soma_de_dois_numeros(x, y):
     """Escreva aqui em baixo a sua solução"""
-    while True:
-        try:
-            num1 = int(input("Insira um número inteiro: "))
-            num2 = int(input("Insira outro número inteiro: "))
-            break
+    return print(f"A soma dos dois números informados é {x+y}")
+    
+while True:
+    try:
+        num1 = int(input("Insira um número inteiro: "))
+        num2 = int(input("Insira outro número inteiro: "))
+        break
             
-        except ValueError:
+    except ValueError:
             print("Insira um número inteiro válido")
-    print(f"A soma dos dois números é: {num1+num2}")
+imprima_a_soma_de_dois_numeros(num1, num2)
