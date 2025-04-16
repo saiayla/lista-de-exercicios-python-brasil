@@ -139,8 +139,12 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_02_estrutura_de_decisao\ex_03_F_ou_M.py
-    - name: Correção do Exercício 03 da seção de Estrutura de Decisão
+    - name: Correção do Exercício 04 da seção de Estrutura de Decisão
       if: always()
       run: |
         python -m doctest -f secao_02_estrutura_de_decisao\ex_04_vogal_ou_consoante.py
+    - name: Correção do Exercício 05 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao\ex_05_notas_parciais.py
       
