@@ -131,4 +131,8 @@ jobs:
       if: always()
       run: |
         python -m doctest -f  secao_02_estrutura_de_decisao\ex_02_positivo_ou_negativo.py
+    - name: Correção do Exercício 01 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao\ex_01_imprimir_maior_numero.py
       
