@@ -199,3 +199,7 @@ jobs:
       if: always()
       run: |
         python -m doctest -f secao_02_estrutura_de_decisao\ex_18_validador_de_data.py
+    - name: Correção do Exercício 20 da seção de Estrutura de Decisão
+      if: always()
+      run: |
+        python -m doctest -f secao_02_estrutura_de_decisao\ex_20_3_notas_parciais.py
